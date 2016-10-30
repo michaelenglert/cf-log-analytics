@@ -10,12 +10,12 @@ To deploy the Application to CloudFoundry the [Dist Zip Container](https://githu
 2. Build a Docker Image for the Log Analytics Agent
   * by `./build_docker.sh <Portal User> <Agent Version X.X.X.X>`
   * Will Prompt for:
-   * Event Service Host Name
-   * Event Service Port
-   * Account Access Key
-   * Global Account Name
-   * Docker Image Name
-   * Portal Password
+    * Event Service Host Name
+    * Event Service Port
+    * Account Access Key
+    * Global Account Name
+    * Docker Image Name
+    * Portal Password
 3. Run your Docker Container
   * by `docker run --name <Container Name> -v <Host Java Home>:/java -p <Host Port>:514 -d <Image Name>:<Version>`
 
