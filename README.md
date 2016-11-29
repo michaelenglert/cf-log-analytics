@@ -2,8 +2,6 @@
 
 The Analytics Agent can be used within CloudFoundry to gather Log Files. [More details on how to configure Log Analytics ](https://docs.appdynamics.com/display/latest/Configuring+Log+Analytics)
 
-To deploy the Application to CloudFoundry the [Dist Zip Container](https://github.com/cloudfoundry/java-buildpack/blob/master/docs/container-dist_zip.md) of the [Java Buildpack](https://github.com/cloudfoundry/java-buildpack) is used.
-
 ## Build and Deploy the Agent
 1. [Alter the configuration as per documentation](https://docs.appdynamics.com/display/latest/Installing+Agent-Side+Components)
   * Change `cf.job`
